@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selecting Date/time</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "javaScript.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica|Aboreto|Alef|Arima Madurai|Tajawal|El Messiri|Harmattan ">
+
+    </head>
+    <body style="background-image: url(bacground.jpg);">
+            <!-- Start Header -->
+     <header>
+        <nav class="bar-page">
+            <p id="logo-page">Lavander</p>
+            <div class="nav-bar-page">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="work.html">Work hour</a></li>
+
+                   </ul>
+            </div>
+        </nav>
+     </header>
+    <!-- end Header -->
+        <div class="timeDateTabel">
+            <p class="titleInfoPage" style="font-size:25px">Select Date/Time</p>
+        <form>
+             <br>
+            <label  for="date">Select Date : </label>
+            <input type="date" class="optionStyle" onload="getDate()" class="form-control" id="start" value="dd/mm/yyyy" max="2023-12-31"
+              name="date">
+
+            <br>
+            <br>
+            <br>
+
+        </form>
+
+        <label >Select Time :</label> 
+
+        <nav class="timeLinks" style="margin-left: 100px;" id="forTimePage">Morning:
+            <ul class="timeUL">
+                <li class="timeLi"><a  class="timeA" href="information.html">11:00 AM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">11:15 AM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">11:30 AM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">11:45 AM</a></li>
+            </ul>
+        </nav>
+
+        <nav class="timeLinks" style=" margin-left: 100px; margin-top: 20px;" id="forTimePage">Afternoon:
+            <ul class="timeUL">
+                <li class="timeLi"><a  class="timeA" href="information.html">12:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">12:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">12:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">12:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">1:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">1:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">1:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">1:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">2:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">2:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">2:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">2:45 PM</a></li>
+            </ul>
+        </nav>
+
+        <nav class="timeLinks" style=" margin-top: 20px; margin-left: 100px;" id="forTimePage">Evening:
+            <ul class="timeUL">
+                <li class="timeLi"><a  class="timeA" href="information.html">3:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">3:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">3:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">3:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">4:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">4:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">4:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">4:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">5:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">5:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">5:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">5:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">6:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">6:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">6:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">6:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">7:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">7:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">7:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">7:45 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">8:00 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">8:15 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">8:30 PM</a></li>
+                <li class="timeLi"><a  class="timeA" href="information.html">8:45 PM</a></li>
+            </ul>
+        </nav>
+
+
+
+        </div>
+    </body>
+
+    <script src = "javaScript.js"></script>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|emboss|Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica|Aboreto|Alef|Arima Madurai|Tajawal|El Messiri|Harmattan ">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "javaScript.js"></script>
+    
+</head>
+
+<body style="background-image: url(bacground.jpg);">
+            
+    <!-- Start Header -->
+    <header>
+      <nav class="bar-page">
+          <p id="logo-page">Lavander</p>
+          <div class="nav-bar-page">
+              <ul>
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="work.html">Work hour</a></li>
+
+                 </ul>
+          </div>
+      </nav>
+   </header>
+  <!-- end Header -->
+
+ 
+   <div class="infoTabel">
+    <p class="titleInfoPage">Login</p>
+     <form autocomplete="on" action="/login" method="POST">
+         <div id ="Confirm">
+          
+        
+        <p> UserName </p>
+            <input class="inputStyle" type="text"  name="name" id="loginname" required onfocus="labelBG(this)">
+        <br> 
+        <br>
+        <br> 
+        <br> 
+        <p>Password</p>
+           <input class="inputStyle" type="password"  name="password" id="loginpassword" required onfocus="labelBG(this)">
+        <br> 
+        <br> 
+
+        <a href="signup.html" style="text-decoration: none;"> <p id="messageLogin">You do not have account?  Sign up.</p><br></a>
+
+        <p>
+         <input class="buttonStyle" type="submit" value="login" id="confirm" onclick="Login()">
+        </p> 
+
+        
+        </div> 
+</form>
+   
+</div>   
+<footer>
+</footer>
+    
+</body>
+<script src = "javaScript.js"></script>
+</html>

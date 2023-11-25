@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|emboss|Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica|Aboreto|Alef|Arima Madurai|Tajawal|El Messiri|Harmattan ">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "javaScript.js"></script>
+    
+</head>
+
+<body style="background-image: url(bacground.jpg);">
+            
+    <!-- Start Header -->
+    <header>
+      <nav class="bar-page">
+          <p id="logo-page">Lavander</p>
+          <div class="nav-bar-page">
+              <ul>
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="work.html">Work hour</a></li>
+
+                 </ul>
+          </div>
+      </nav>
+   </header>
+  <!-- end Header -->
+   <div class="infoTabel">
+    <p class="titleInfoPage">Sign up</p>
+     <form autocomplete="on" action="/signup" method="POST">
+         <div id ="Confirm">
+          
+        
+        <p> UserName </p>
+            <input class="inputStyle" type="text"  name="name" id="sname" required onfocus="labelBG(this)">
+        <br> 
+        <br>
+        <br> 
+        <p>Email</p>
+           <input class="inputStyle" type="email"  name="email" id="semail" required onfocus="labelBG(this)">
+            <p id="message">Please enter valid email.<p>
+        <br> 
+        <br> 
+        <p>password</p>
+              <input class="inputStyle" type="password"  name="password" id="spassword"  required onfocus="labelBG(this)">
+        <br> 
+        <br> 
+        <p>
+         <input class="buttonStyle" type="submit" value="Signup" onclick="Signup()">
+        </p> 
+
+        
+        </div> 
+</form>
+   
+</div>   
+<footer>
+</footer>
+    
+</body>
+<script src = "javaScript.js"></script>
+</html>
